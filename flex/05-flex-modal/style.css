@@ -3,6 +3,9 @@
 html, body {
   height: 100%;
 }
+*{
+  /* border: 2px solid greenyellow; */
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -20,8 +23,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
 }
-
+.first-container{
+  display: flex;
+  /* gap: 16px; */
+}
+.first-container .header{
+  font-weight: bold;
+  font-size: 18px;
+}
+.text{
+  padding-left: 40px;
+  margin-bottom: 20px;
+  /* flex-shrink: 3; */
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -48,6 +64,9 @@ body {
   justify-content: center;
 }
 
+.btn{
+  padding-left: 40px;
+}
 button {
   padding: 8px 16px;
   border-radius: 8px;
